@@ -1,0 +1,8 @@
+--- # target playbook
+ - hosts: devops
+   user: ansible
+   become: yes
+   connecttion: ssh
+   gather_facts: yes
+   tasks: 
+         
